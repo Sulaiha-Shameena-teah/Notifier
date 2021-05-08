@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+ <welcome-file-list> 
+    <welcome-file>login.jsp</welcome-file>
+</welcome-file-list>
+<servlet>
+    <servlet-name>SaveNote</servlet-name>
+    <servlet-class>com.servlets.SaveNote</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>UserRegister</display-name>
+	<servlet-name>UserRegister</servlet-name>
+	<servlet-class>com.servlets.UserRegister</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>UserLogin</display-name>
+	<servlet-name>UserLogin</servlet-name>
+	<servlet-class>com.servlets.UserLogin</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>Notedesc</display-name>
+	<servlet-name>Notedesc</servlet-name>
+	<servlet-class>com.servlets.Notedesc</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>EditNote</display-name>
+	<servlet-name>EditNote</servlet-name>
+	<servlet-class>com.servlets.EditNote</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>DBnotes</display-name>
+	<servlet-name>DBnotes</servlet-name>
+	<servlet-class>com.servlets.DBnotes</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>DBservlet</display-name>
+	<servlet-name>DBservlet</servlet-name>
+	<servlet-class>com.servlets.DBservlet</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>DeleteNote</display-name>
+	<servlet-name>DeleteNote</servlet-name>
+	<servlet-class>com.servlets.DeleteNote</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>EditUser</display-name>
+	<servlet-name>EditUser</servlet-name>
+	<servlet-class>com.servlets.EditUser</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>SearchNote</display-name>
+	<servlet-name>SearchNote</servlet-name>
+	<servlet-class>com.servlets.SearchNote</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>SaveNote</servlet-name>
+    <url-pattern>/SaveNote</url-pattern>  
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>UserRegister</servlet-name>
+	<url-pattern>/UserRegister</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>UserLogin</servlet-name>
+	<url-pattern>/UserLogin</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>Notedesc</servlet-name>
+	<url-pattern>/Notedesc</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>EditNote</servlet-name>
+	<url-pattern>/EditNote</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>DBnotes</servlet-name>
+	<url-pattern>/DBnotes</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>DBservlet</servlet-name>
+	<url-pattern>/DBservlet</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>DeleteNote</servlet-name>
+	<url-pattern>/DeleteNote</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>EditUser</servlet-name>
+	<url-pattern>/EditUser</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>SearchNote</servlet-name>
+	<url-pattern>/SearchNote</url-pattern>
+</servlet-mapping>
+</web-app>
+
+
